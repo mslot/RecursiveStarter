@@ -18,7 +18,7 @@ set-item -Path alias:r -value recursive-starter
 ```
 
 ## Try it out
-Restart your powershell, and then try to go into a root directory you know is holding a sln file in some subfolder, type `r` and it should open up.
+Restart your powershell, and then try to go into a root directory you know is holding a sln file in some subfolder, type `r` and it should open up your solution in the correct version of Visual Studio.
 
 # Next up
 I am currently working on the settings branch: features/settings_control. Feel free to chip in.
