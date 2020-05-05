@@ -13,7 +13,7 @@ Clone this repo to a location of your own choosing
 Open your powershell profile, and add these lines
 
 ```powershell
-function recursive-starter {py "[X:\path\to\location\of\cloned\repo]\src\Starter.py"}
+function starter {py "[X:\path\to\location\of\cloned\repo]\src\Starter.py"}
 set-item -Path alias:s -value starter
 ```
 
