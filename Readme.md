@@ -21,4 +21,4 @@ set-item -Path alias:s -value starter
 Restart your powershell, and then try to go into a root directory you know is holding a sln file in some subfolder, type `s` and it should open up your solution in the correct version of Visual Studio.
 
 # Next up
-I am currently working on the settings branch: features/settings_control. Feel free to chip in. I want to add some sort of control if there is more than one sln file found (maybe it is even going to remember what you choose, so you can just do a `r [ret] [ret]`). Lots of features needs to be added to this.
+I am currently working on the settings branch: features/settings_control. Feel free to chip in. I want to add some sort of control if there is more than one sln file found (maybe it is even going to remember what you choose, so you can just do a `s [ret] [ret]`). Lots of features needs to be added to this.
