@@ -8,17 +8,17 @@ If you dont have python installed: open powershell, type python, push enter and 
 
 Clone this repo to a location of your own choosing
 
-> git clone https://github.com/mslot/RecursiveStarter.git
+> git clone https://github.com/mslot/starter.git
 
 Open your powershell profile, and add these lines
 
 ```powershell
-function recursive-starter {py "[X:\path\to\location\of\cloned\repo]\src\RecursiveStarter.py"}
-set-item -Path alias:r -value recursive-starter
+function recursive-starter {py "[X:\path\to\location\of\cloned\repo]\src\Starter.py"}
+set-item -Path alias:s -value starter
 ```
 
 ## Try it out
-Restart your powershell, and then try to go into a root directory you know is holding a sln file in some subfolder, type `r` and it should open up your solution in the correct version of Visual Studio.
+Restart your powershell, and then try to go into a root directory you know is holding a sln file in some subfolder, type `s` and it should open up your solution in the correct version of Visual Studio.
 
 # Next up
 I am currently working on the settings branch: features/settings_control. Feel free to chip in. I want to add some sort of control if there is more than one sln file found (maybe it is even going to remember what you choose, so you can just do a `r [ret] [ret]`). Lots of features needs to be added to this.
