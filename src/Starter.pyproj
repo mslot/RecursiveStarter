@@ -5,12 +5,12 @@
     <ProjectGuid>187946e5-1d36-4dbf-b602-38ef384b77ac</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>RecursiveStarter.py</StartupFile>
+    <StartupFile>Starter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>RecursiveStarter</Name>
+    <Name>Starter</Name>
     <RootNamespace>VSStarter</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <CommandLineArguments>/test1 hello /test2 world</CommandLineArguments>
@@ -25,7 +25,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RecursiveStarter.py" />
+    <Compile Include="Starter.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
